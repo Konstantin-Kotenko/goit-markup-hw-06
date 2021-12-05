@@ -734,16 +734,20 @@ img {
 	letter-spacing: 0.03em;
 	color: var(--text-color);
 	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .modal-check-text span {
-	width: 15px;
-	height: 16px;
+	width: 16px;
+	height: 15px;
 	border: 2px solid var(--primary-shade-color);
 	border-radius: 2px;
+	margin-right: 8px;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	vertical-align: middle;
 }
 
 .modal-check:checked + .modal-check-text span {
@@ -751,12 +755,20 @@ img {
 	border: none;
 }
 
-.link-policy {
-	color: var(--accent-color);
-}
-
 .checkbox-wrap {
 	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-link {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	text-decoration-line: underline;
+	text-decoration-skip-ink: none;
+	color: var(--accent-color);
 }
 
 .send-btn {
