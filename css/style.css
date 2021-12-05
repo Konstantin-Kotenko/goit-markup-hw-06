@@ -737,13 +737,14 @@ img {
 }
 
 .modal-check-text span {
-	width: 16px;
-	height: 15px;
+	width: 15px;
+	height: 16px;
 	border: 2px solid var(--primary-shade-color);
-	margin-right: 8px;
 	border-radius: 2px;
+	display: flex;
 	align-items: center;
 	justify-content: center;
+	vertical-align: middle;
 }
 
 .modal-check:checked + .modal-check-text span {
@@ -751,27 +752,12 @@ img {
 	border: none;
 }
 
-/* .modal-check-text::before {
-	content: '';
-	width: 16px;
-	height: 15px;
-	border: 2px solid var(--primary-shade-color);
-	margin-right: 8px;
-	display: block;
-	border-radius: 1px;
-}
-
-.modal-check:checked + .modal-check-text::before {
-	background-color: var(--accent-color);
-} */
-
 .link-policy {
 	color: var(--accent-color);
 }
 
 .checkbox-wrap {
 	margin-bottom: 30px;
-	display: block;
 }
 
 .send-btn {
