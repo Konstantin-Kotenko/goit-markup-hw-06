@@ -580,6 +580,7 @@ img {
 
 .subscription-wrap {
 	display: flex;
+	justify-content: space-between;
 }
 
 .backdrop {
