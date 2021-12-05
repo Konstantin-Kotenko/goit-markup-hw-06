@@ -772,6 +772,7 @@ img {
 
 .checkbox-wrap {
 	margin-bottom: 30px;
+	display: block;
 }
 
 .send-btn {
