@@ -442,13 +442,28 @@
 				</button>
 				<p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
 				<form class="modal-form">
-					<label for="user-name"></label>
-					<input type="text" name="user-name" class="modal-input" />
-					<label for="user-tal"></label>
-					<input type="tel" name="user-tal" class="modal-input" />
-					<label for="user-email"></label>
-					<input type="email" name="user-email" class="modal-input" id="user-email" />
-					<textarea name="comment" placeholder="Введите текст"></textarea>
+					<div class="modal-form-field">
+						<label for="user-name" class="modal-input-text">Имя</label>
+						<input type="text" name="user-name" class="modal-input" />
+					</div>
+					<div class="modal-form-field">
+						<label for="user-tal" class="modal-input-text">Телефон</label>
+						<input type="tel" name="user-tal" class="modal-input" />
+					</div>
+					<div class="modal-form-field">
+						<label for="user-email" class="modal-input-text">Почта</label>
+						<input type="email" name="user-email" class="modal-input" id="user-email" />
+					</div>
+					<div class="modal-form-field">
+						<label for="user-text" class="modal-input-text">Комментарий</label>
+						<textarea name="user-text" id="user-text" class="modal-text" placeholder="Введите текст"></textarea>
+					</div>
+					<div class="modal-form-field">
+						<label for="policy"></label>
+						<input type="checkbox" name="policy" id="policy" class="policy-input" />
+						Соглашаюсь с рассылкой и принимаю
+						<a href="" class="link-policy">Условия договора</a>
+					</div>
 					<button type="submit">Отправить</button>
 				</form>
 			</div>
