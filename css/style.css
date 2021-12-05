@@ -742,7 +742,7 @@ img {
 	border: 2px solid var(--primary-shade-color);
 	margin-right: 8px;
 	border-radius: 2px;
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
