@@ -808,7 +808,6 @@ img {
 
 .projects {
 	border: 1px solid var(--border-color);
-	border-top: 0px;
 }
 
 .portfolio-item:not(:nth-child(3n)) {
